@@ -6,7 +6,7 @@
 *-----------------------------------------------------------
     ORG    $1000
 START:                  ; first instruction of program
-7
+
 * Put program code here
 
     MOVE.B #9,D1    ;moves 9 to D1
@@ -21,6 +21,7 @@ START:                  ; first instruction of program
 * Put variables and constants here
 
     END    START        ; last line of source
+
 
 
 *~Font name~Courier New~
